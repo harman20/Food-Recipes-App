@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <link rel="icon" href="hamburger.png">
+
+	<title>FoodRecipes App</title>
+	<link rel="stylesheet" type="text/css" href="mystyle.css">
+	
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+  
+  <script src= "https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"> </script>
+
+</head>
+<body>
+
+<div class="bg-img">
+	<div class="header">
+  <div class="logo">FOOD RECIPES</div>
+  <p id="demo"></p>
+  <div class="menu">
+    <a href="index.html" class="link">Home</a>
+    <a href="cocktail.html" class="link ">Cocktail</a>
+    <a href="beer.html" class="link ">Beer</a>
+    <a href="contactus.html" class="link ">Contact Us</a>
+  </div>
+</div>
+
+
+
+<div class="tb">
+   <h1 style="font-size: 50px;font-family:arial black;text-shadow:2px 2px 4px #000000;">SEARCH</h1><br>
+   <form autocomplete="off">
+   <input type="search" id="demo2">
+   <button type="button" class="fa fa-search" onclick="myFunction()" id="btn"></button>
+ </form>
+
+</div>
+
+
+</div>
+<div id="root"></div>
+
+<br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="foot_bottom">
+
+    <div class="cpy-right">
+        <h2 class="glow">Follow us on</h2>
+      <ul class="sinfo">
+        <li><a href="https://vidooly.com/blog/world-food-video-pages-on-facebook/"><span class="fab fa-facebook-f"></span></a></li>
+        <li><a href="https://twitter.com/twitterfood"><span class="fab fa-twitter"></span></a></li>
+        <li><a href="https://www.esquire.com/food-drink/drinks/"><span class="fab fa-google"></span></a></li>
+        <li><a href="https://www.instagram.com/thebestdrinkever/?hl=en"><span class="fab fa-instagram"></span></a></li>
+        <li><a href="https://github.com/topics/food-ordering"><span class="fab fa-github"></span></a></li>
+        <li><a href="https://www.linkedin.com/company/the-food-channel-official-page-/?originalSubdomain=in"><span class="fab fa-linkedin"></span></a></li>
+      </ul>
+    </div>
+  </div>
+
+<script type="text/javascript">
+  var d = new Date();
+  var n = d.toLocaleDateString();
+  document.getElementById("demo").innerHTML = n;
+
+
+ 
+
+$("#demo2").keypress(function(event) { 
+            if (event.keyCode === 13) { 
+                $("#btn").click();
+                
+            event.preventDefault(); 
+            } 
+        }); 
+</script>
+<script src="scripts.js"></script>
+</body>
+</html>

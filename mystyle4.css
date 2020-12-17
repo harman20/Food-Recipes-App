@@ -1,0 +1,203 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis:200,300,400,500,600,700,800);
+
+html, body {
+  font-family: 'Dosis';
+  font-weight: 300; 
+  background: url(strawberry.jpg);
+  min-height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*navbar*/
+ .bg-img {
+  background-image: url("chococake.jpg");
+  min-height: 800px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+  position: relative;
+}
+.header {
+  width: 100%;
+  text-align: right;
+  position: relative;
+  color: white;
+}
+  
+  .logo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    font-size: 32px;
+    font-weight:bold;
+    padding: 26px;
+    
+    border-right: 1px solid black;
+  }
+  #demo {
+    position: absolute;
+    top: 0;
+    left: 250px;
+    font-size: 30px;
+    font-weight: 100; }
+
+    .link {
+  display: inline-block;
+  padding: 15px 0;
+  margin: 15px 25px;
+  position: relative;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 800;
+  font-size: 24px;}
+ 
+ .link {
+    -webkit-transition: color 1s;
+    transition: color 1s;
+    }
+    .link:hover {
+        color: navy;
+    }
+
+    .header {
+    	overflow: hidden;
+    	position: fixed;
+  		top: 0;
+  		width: 100%;
+  		background: url(paint.jpg);
+    }
+    .header:hover {
+    box-shadow: 2px 8px 45px rgba(0, 0, 0, .50);
+    transform: translate3D(0, -2px, 0);}
+
+    /**/
+/*footer*/
+.foot_bottom{
+    height: 150px;
+    background: url(paint.jpg);
+    text-align: center;
+}
+.cpy-right h2{
+    color: white;
+    letter-spacing: 4px;
+    font-weight: bold;
+
+}
+ul.sinfo li{
+    display: inline-block;
+}
+ul.sinfo a{
+    color: blue;
+    margin-right: 30px;
+    font-size: 25px;
+}
+ul.sinfo a:hover{
+    color:#fff;
+
+}
+.glow {
+  color: white;
+  text-align: center;
+  -webkit-animation: glow 1s ease-in-out infinite alternate;
+  -moz-animation: glow 1s ease-in-out infinite alternate;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+
+@-webkit-keyframes glow {
+  from {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #0008e6, 0 0 40px #0008e6, 0 0 50px #0008e6, 0 0 60px #0008e6, 0 0 70px #0008e6;
+  }
+  
+  to {
+    text-shadow: 0 0 20px #fff, 0 0 30px #4dfff9, 0 0 40px #4dfff9, 0 0 50px #4dfff9, 0 0 60px #4dfff9, 0 0 70px #4dfff9, 0 0 80px #4dfff9;
+  }
+}
+/**/
+/*form*/
+#form{
+    margin-left: 70px;
+    margin-right:70px;
+    padding-top: 120px;
+  }
+
+  .container2:hover {
+    background-color: #836f64;
+  }
+  ::placeholder {
+  color: black;
+  opacity: 1;
+}
+
+.container2{
+  border: 2px solid #ff5474;
+    border-radius: 25px;
+  background-color:rgba(0,0,0,0.2);
+  padding: 20px;
+   width: 400px;
+   margin-left: 40px;
+   float:left;
+}
+
+  #para4{
+  	font-size: 27px;
+  	text-shadow: 2px 2px 4px #c7818d;
+}
+.block {
+  width: 40%;
+  font-family: 'Solway';font-size: 20px;
+  background-color: #f08080;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  border-radius: 15px;
+  }
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+  background: transparent;
+}
+
+
+/**/
+
+/*info*/
+.container3{
+    border: 2px solid  #ff5474;
+      border-radius: 25px;
+    background-color:rgba(0,0,0,0.2);
+    padding: 20px;
+     width: 600px;
+     margin-left: 12px;
+    float: left;
+    text-shadow: 1px 1px 2px black, 0 0 1em blue, 0 0 0.2em blue;
+  }
+
+  .container3:hover {
+    background-color: #836f64;
+  }
+  #coh1 {
+    font-family: 'Croissant One';
+  }
+
+  
+  #info{
+
+    margin-left:45px;
+  }
+/**/
